@@ -13,7 +13,7 @@ let chart1 = new Chart(chartRef1, {
       borderRadius: 4,
       borderSkipped: false,
       backgroundColor: "rgba(255, 255, 255, .8)",
-      data: [50, 20, 10, 22, 50, 10, 40],
+      data: [50, 20, 10, 22, 50, 10, 40],      
       maxBarThickness: 6
     }, ],
   },
@@ -251,4 +251,4 @@ let newData = [100, 80, 60, 40, 20, 10, 1];
 chart1.data.datasets[0].data = newData;
 }
 
-loadData();
+loadData()
