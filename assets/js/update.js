@@ -96,7 +96,7 @@ let updateIndicators = () => {
 
     let porcentaje_de_cambio = (valor_actual,valor_previo) => Math.round((valor_actual - valor_previo)*100/valor_previo)
     let clase_cambio = (porcentaje) => {
-        let clase = porcentaje > 0 ? 'text-sucess' : 'text-danger';
+        let clase = porcentaje > 0 ? 'text-success' : 'text-danger';
         return clase;
     }
 
